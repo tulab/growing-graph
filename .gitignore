@@ -1,0 +1,10 @@
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+.env
+data/
+.pytest_cache/
+
+# growing-graph CLI 临时信息（state + 短 id 表，位于各运行目录的 .agents/growing-graph/）
+**/.agents/growing-graph/
